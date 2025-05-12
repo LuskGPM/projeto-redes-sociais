@@ -3,5 +3,51 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+html, body {
+    height: 100%;
+    width: 100%;
+}
+main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/fundo-madeira.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
+    background-image: url("../img/frame-iphone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#redes-sociais {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+#redes-sociais img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+#tela {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 86%;
+    height: 76%;
+}
